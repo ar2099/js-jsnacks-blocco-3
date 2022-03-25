@@ -85,6 +85,6 @@ let pulizia = document.getElementById("bottone2");
 
 pulizia.addEventListener("click",
 function(){
-    document.getElementById("stampa").innerHTML = ``
+    document.getElementById("stampa").innerHTML += `<span class="riga-array"> | ${stringa[i]} | </span>`
 }
 )
